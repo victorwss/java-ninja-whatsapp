@@ -6,7 +6,7 @@ import java.util.List;
 @Moderadores({
     @Moderador(name = "Victor")
 })
-public interface ModeradorStrategy implements RegraDoGrupo {
+public interface ModeradorStrategy {
 
     public static final List<String> PROIBICOES = List.of(
         "spam", "fake news", "política", "futebol", "religião", "novela", "BBB - big bosta brasil",
